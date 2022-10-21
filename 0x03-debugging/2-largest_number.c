@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 nclude "holberton.h"
+=======
+#include "main.h"
+>>>>>>> 03e9c4e43bb91da2233e5edf51ebcc4a0b704eb8
 
 /**
  * largest_number - returns the largest of 3 numbers
