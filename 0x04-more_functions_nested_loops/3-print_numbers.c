@@ -10,10 +10,8 @@ void print_numbers(void)
 {
 	int i = 0;
 
-	for (i < 10, i++)
-	{
-		_putchar(i);
-	}
+	while (i < 10)
+		_putchar(i++ + '0');
 
 	_putchar('\n');
 }
