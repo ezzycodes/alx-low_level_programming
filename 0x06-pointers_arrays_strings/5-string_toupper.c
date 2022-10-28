@@ -3,16 +3,17 @@
 /**
  * string_toupper - changes all lower case character to upper case
  * @str: character
- * Return: Always 0.
+ * Return: returns a character (str)
  */
 char *string_toupper(char *str)
 {
-	char str[];
-	char *ptr;
+	int index = 0;
 
-	ptr = string_toupper(str);
+	while (str[index++])
+	{
+		if (str[index] >= 'a' && str[index] <= 'z')
+			str[index] -= 32;
+	}
 
-	for (str[index] >= 'a' && str[index] <= 'z')
-		return (ptr);
-	return (0);
+	return (str);
 }
