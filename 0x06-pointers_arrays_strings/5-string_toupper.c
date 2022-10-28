@@ -7,11 +7,12 @@
  */
 char *string_toupper(char *str)
 {
-	char str[] = "Look up!\n";
+	char str[];
 	char *ptr;
 
 	ptr = string_toupper(str);
-	printf("%s", ptr);
-	printf("%s", str);
+
+	for (str[index] >= 'a' && str[index] <= 'z')
+		return (ptr);
 	return (0);
 }
