@@ -1,6 +1,7 @@
-#include "main.h" 
+#include "main.h"
 
 /**
+ * _memset - function copies n bytes from memory area src to memory area dest
  * @s: source string
  * @b: the contant byte for filling
  * @n: lenght of buffer
