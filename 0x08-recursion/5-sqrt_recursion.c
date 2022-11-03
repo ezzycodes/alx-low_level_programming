@@ -3,11 +3,10 @@
 
 /**
  * checker - checks the input number from n to the base
- * @n: number is squared and compared against base 
+ * @n: number is squared and compared against base
  * @base: base number to check
  * Return: natural square root of number base
-
-       */
+ */
 
 int checker(int n, int base)
 {
